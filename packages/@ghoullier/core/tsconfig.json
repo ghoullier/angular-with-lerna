@@ -34,6 +34,6 @@
   ],
   "angularCompilerOptions": {
     "genDir": "dist",
-    "entryModule": "src/lib/common.module#BlacknutCommonModule"
+    "entryModule": "src/lib/core.module#CoreModule"
   }
 }
