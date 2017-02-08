@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
-
+import { AppModule as ManekinekkoAppModule } from '@manekinekko/angular-library-starter';
 import { CoreModule } from '@ghoullier/core';
 
 import { AppComponent } from './app.component';
@@ -17,9 +17,10 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule,
     AppRoutingModule,
+    ManekinekkoAppModule,
     CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class UiAppModule { }
